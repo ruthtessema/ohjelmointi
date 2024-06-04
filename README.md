@@ -48,6 +48,9 @@ Tarkemmat ostoslistat: Kategorisoi ainesosat, kuten "vihannekset", "liha", jne.
 Seuraa näitä ohjeita asentaaksesi ja käynnistääksesi sovelluksen:
 
 ```bash
+# Vuokaavio 
+<https://app.diagrams.net/#Hruthtessema%2Fohjelmointi%2Fmain%2Fmeal-planner.drawio#%7B%22pageId%22%3A%22iWFJexOr67Gq6MOlITjU%22%7D>
+
 # Kloonaa repositorio
 git clone https://github.com/ruthtessema/ohjelmointi
 cd ohjelmointi
