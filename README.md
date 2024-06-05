@@ -62,9 +62,9 @@ tai
 
 
 3. Navigoi purettuun/kloonattuun kansioon:
-    ```sh
+    sh
     cd /Users/ruth/Documents/GitHub/ohjelmointi
-    ```
+    
 
 # Suorita Ohjelma
 /usr/local/bin/python3 /Users/ruth/Documents/GitHub/ohjelmointi/main.py
