@@ -58,7 +58,7 @@ tai
 
 1. Kloonaa repositorio paikalliselle koneellesi:
     sh
-    git clone https://github.com/ruthtessemaa/InteractiveMealPlanner.git
+    git clone https://github.com/ruthtessemaa/ohjelmointi.git
 
 
 3. Navigoi purettuun/kloonattuun kansioon:
