@@ -1,7 +1,6 @@
 # proketi.py
 # meal planner / ruokalistasuunnitelija
 
-# meal_planner.py
 
 # Reseptien tallentaminen sanakirjaan, jossa avain on reseptin nimi ja arvo on lista ainesosista
 recipes = {}
@@ -10,20 +9,13 @@ recipes = {}
 meal_plan = {}
 
 def add_recipe():
-    """
-    Funktio uuden reseptin lisäämiseen.
-    Pyytää käyttäjältä reseptin nimen ja ainesosat, ja tallentaa ne recipes-sanakirjaan.
-    """
+
     name = input("Anna reseptin nimi: ")  # Pyydetään käyttäjää syöttämään reseptin nimi
     ingredients = input("Anna ainesosat pilkulla erotettuna: ").split(",")  # Pyydetään ainesosat pilkulla erotettuna ja jaetaan ne listaksi
     recipes[name] = [ingredient.strip() for ingredient in ingredients]  # Tallennetaan reseptin nimi ja ainesosat sanakirjaan
     print(f"Resepti '{name}' lisätty.")  # Tulostetaan vahvistusviesti
 
 def show_recipes():
-    """
-    Funktio kaikkien reseptien näyttämiseen.
-    Tulostaa kaikki tallennetut reseptit ja niiden ainesosat.
-    """
     if not recipes:  # Tarkistetaan, onko recipes-sanakirja tyhjä
         print("Ei reseptejä tallennettuna.")  # Jos tyhjä, tulostetaan ilmoitus
     else:
@@ -33,10 +25,6 @@ def show_recipes():
                 print(f"- {ingredient}")  # Tulostetaan kukin ainesosa
 
 def create_meal_plan():
-    """
-    Funktio viikoittaisen ruokalistan luomiseen.
-    Pyytää käyttäjältä viikonpäivät ja niille valitut reseptit, ja tallentaa ne meal_plan-sanakirjaan.
-    """
     print("Syötä viikon päivät (maanantai, tiistai, ...). Kirjoita 'valmis' lopettaaksesi.")  # Ohjeistaa käyttäjää
     while True:
         day = input("Anna päivän nimi (tai 'valmis' lopettaaksesi): ").lower()  # Pyydetään käyttäjältä päivän nimi
@@ -53,10 +41,6 @@ def create_meal_plan():
             print(f"Reseptiä '{recipe}' ei löydy. Lisää resepti ensin.")  # Jos reseptiä ei löydy, ilmoitetaan siitä
 
 def show_shopping_list():
-    """
-    Funktio ostoslistan näyttämiseen.
-    Generoi ja tulostaa ostoslistan viikoittaisen ruokalistan ainesosien perusteella.
-    """
     shopping_list = {}  # Luodaan tyhjä sanakirja ostoslistalle
     for day, recipe in meal_plan.items():  # Käydään läpi viikoittainen ruokalista
         for ingredient in recipes[recipe]:  # Käydään läpi kunkin reseptin ainesosat
@@ -72,9 +56,6 @@ def show_shopping_list():
             print(f"- {ingredient} ({count} kpl)")  # Tulostetaan kukin ainesosa ja sen määrä
 
 def main():
-    """
-    Pääfunktio, joka sisältää sovelluksen päävalikon ja käyttäjän valintojen käsittelyn.
-    """
     while True:
         print("\nValitse toiminto:")  # Tulostetaan valikko
         print("1. Lisää resepti")

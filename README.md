@@ -24,17 +24,13 @@ Valitse toiminto:
 Valitse 1 ja seuraa ohjeita.
 Syötä reseptin nimi ja ainesosat pilkulla erotettuna.
 Esimerkki: Spagetti Bolognese, spagetti, jauheliha, tomaattikastike, sipuli, valkosipuli
-Näytä reseptit:
 
 Valitse 2 nähdäksesi kaikki tallennetut reseptit.
-Luo ruokalista:
 
 Valitse 3 ja syötä viikonpäivät sekä valitse niille reseptit.
 Esimerkki: maanantai, Spagetti Bolognese
-Näytä ostoslista:
 
 Valitse 4 nähdäksesi ostoslistan, joka perustuu luomaasi ruokalistaan.
-Lopeta ohjelma:
 
 Valitse 5 lopettaaksesi ohjelman.
 
@@ -47,19 +43,28 @@ Reseptien muokkaaminen: Mahdollisuus muokata jo lisättyjä reseptejä.
 Reseptien poistaminen: Mahdollisuus poistaa reseptejä.
 Tarkemmat ostoslistat: Kategorisoi ainesosat, kuten "vihannekset", "liha", jne.
 
+## 📞 Yhteystiedot
+Nimi: Sara Sayeed & Ruth Tessema
 
 ## 🚀 Asennus
 Seuraa näitä ohjeita asentaaksesi ja käynnistääksesi sovelluksen:
 
-## 📞 Yhteystiedot
-Nimi: Sara Sayeed & Ruth Tessema
-
 ```bash
 
-# Kloonaa repositorio
-git clone https://github.com/ruthtessema/ohjelmointi
-cd ohjelmointi
+### Käyttöohjeet (Ohjelman suorittaminen ilman GitHubia)
+1. Lataa ohjelman ZIP-tiedosto GitHubista ja pura se haluamaasi kansioon.
 
-# Käynnistä sovellus
-python meal_planner.py
+tai
 
+1. Kloonaa repositorio paikalliselle koneellesi:
+    sh
+    git clone https://github.com/ruthtessemaa/InteractiveMealPlanner.git
+
+
+3. Navigoi purettuun/kloonattuun kansioon:
+    ```sh
+    cd /Users/ruth/Documents/GitHub/ohjelmointi
+    ```
+
+# Suorita Ohjelma
+/usr/local/bin/python3 /Users/ruth/Documents/GitHub/ohjelmointi/main.py
