@@ -4,8 +4,7 @@
 **Ruokalistasuunnittelija / meal-planner** on yksinkertainen tekstipohjainen sovellus, joka auttaa käyttäjää suunnittelemaan viikoittaisen ruokalistan, lisäämään reseptejä ja luomaan ostoslistan. Sovellus on kirjoitettu Pythonilla ja tarjoaa käyttäjäystävällisen tavan hallita ruokailusuunnitelmia.
 
 # Vuokaavio 
-![Vuokaavio](Users/ruth/Documents/GitHub/ohjelmointi/meal-planner.drawio.png)
-
+![Vuokaavio](meal-planner.drawio.png)
 
 
 ## 🌟 Ominaisuudet
@@ -51,6 +50,9 @@ Tarkemmat ostoslistat: Kategorisoi ainesosat, kuten "vihannekset", "liha", jne.
 
 ## 🚀 Asennus
 Seuraa näitä ohjeita asentaaksesi ja käynnistääksesi sovelluksen:
+
+## 📞 Yhteystiedot
+Nimi: Sara Sayeed & Ruth Tessema
 
 ```bash
 
