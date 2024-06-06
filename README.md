@@ -19,8 +19,11 @@
 3. **Luo ruokalista**: Kysyy käyttäjältä viikonpäivät ja niihin liittyvät reseptit.
 4. **Näytä ostoslista**: Kerää ainesosat valituista resepteistä ja tulostaa ne.
 
-# Vuokaavio 
+# 📊 Vuokaavio 
 ![Vuokaavio](meal-planner.drawio.png)
+
+# 📀 Demo Video
+<https://youtu.be/PS_Hp8JFbgc>
 
 
 ## 🌟 Ominaisuudet
