@@ -3,6 +3,22 @@
 ## 📋 Kuvaus
 **Ruokalistasuunnittelija / meal-planner** on yksinkertainen tekstipohjainen sovellus, joka auttaa käyttäjää suunnittelemaan viikoittaisen ruokalistan, lisäämään reseptejä ja luomaan ostoslistan. Sovellus on kirjoitettu Pythonilla ja tarjoaa käyttäjäystävällisen tavan hallita ruokailusuunnitelmia.
 
+### 📝 Ideointi
+- **Ongelma**: Ihmiset käyttävät paljon aikaa viikoittaisen ruokalistan suunnitteluun ja ostoslistojen tekemiseen.
+- **Ratkaisu**: Sovellus, joka automatisoi viikoittaisen ruokalistan suunnittelun ja ostoslistojen luonnin.
+
+### Käyttäjäpolku
+1. Käyttäjä avaa sovelluksen.
+2. Käyttäjä lisää reseptejä.
+3. Käyttäjä luo viikoittaisen ruokalistan.
+4. Käyttäjä generoi ostoslistan.
+
+### Toimintalogiikka
+1. **Lisää resepti**: Tallentaa reseptin nimen ja ainesosat sanakirjaan.
+2. **Näytä reseptit**: Tulostaa kaikki tallennetut reseptit.
+3. **Luo ruokalista**: Kysyy käyttäjältä viikonpäivät ja niihin liittyvät reseptit.
+4. **Näytä ostoslista**: Kerää ainesosat valituista resepteistä ja tulostaa ne.
+
 # Vuokaavio 
 ![Vuokaavio](meal-planner.drawio.png)
 
